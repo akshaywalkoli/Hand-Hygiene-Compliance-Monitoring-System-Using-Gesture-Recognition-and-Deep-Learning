@@ -8,7 +8,7 @@ At the core of this system lies facial recognition technology, leveraging the in
 
 **Project Scope and Objective:**  
 Served as the lead developer for a "Hand Hygiene Compliance Monitoring System Using Gesture Recognition and Deep Learning" as part of a B.Tech project.  
-The dataset comprised six classes of images, totaling 1418 images, with each class containing 150-300 images.  
+The dataset comprised six classes of images, totalling 1418 images, with each class containing 150-300 images.  
 
 **Machine Learning Model Development:**  
 Utilized 90% of the dataset for training, with the remaining 10% allocated for testing.  
@@ -19,12 +19,13 @@ Configured the learning rate to 0.0001.
 Leveraged transfer learning with pre-trained 'Imagenet' weights.  
 
 **Model Performance:**  
-Initial validation accuracy of 42% recorded using NVIDIA Digits.  
+An initial validation accuracy of 42% was recorded using NVIDIA Digits.  
 Significant enhancement in accuracy to 63% post fine-tuning.  
 
 **Deployment:**  
 Successfully deployed the model to an FPGA DE10 nano.
 
 
+![Alt Text](https://github.com/akshaywalkoli/Hand-Hygiene-Compliance-Monitoring-System-Using-Gesture-Recognition-and-Deep-Learning/blob/master/HandWash_Video.gif)
 
-https://github.com/akshaywalkoli/Hand-Hygiene-Compliance-Monitoring-System-Using-Gesture-Recognition-and-Deep-Learning/blob/master/HandWash_Video.mp4
+Original Video link: https://github.com/akshaywalkoli/Hand-Hygiene-Compliance-Monitoring-System-Using-Gesture-Recognition-and-Deep-Learning/blob/master/HandWash_Video.mp4
