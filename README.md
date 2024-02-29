@@ -13,6 +13,10 @@ The dataset comprised six classes of images, totaling 1418 images, with each cla
 **Machine Learning Model Development:**  
 Utilized 90% of the dataset for training, with the remaining 10% allocated for testing.  
 Adopted a batch size of 16.  
+
+
+
+https://github.com/akshaywalkoli/Hand-Hygiene-Compliance-Monitoring-System-Using-Gesture-Recognition-and-Deep-Learning/blob/master/HandWash_Video.mp4
 Employed Google's MobileNetV-2 architecture.  
 Configured the learning rate to 0.0001.  
 Leveraged transfer learning with pre-trained 'Imagenet' weights.  
