@@ -1,7 +1,25 @@
-The main purpose of this project is to build a face recognition-based attendance monitoring system for an educational institution and for corporate world to enhance and upgrade the current attendance system into more efficient and effective as compared to before. The current old system has a lot of ambiguity that caused inaccurate and inefficient of attendance taking. Thus, by means of technology, this project will resolve the flaws existed in the current system while bringing attendance taking to a whole new level by automating most of the tasks.
+The primary objective of this endeavour is to develop a facial recognition-based attendance monitoring system tailored for both educational institutions and corporate environments, with the aim of refining and elevating the existing attendance management procedures to a higher echelon of efficiency and effectiveness. The incumbent conventional systems suffer from inherent ambiguities, resulting in inaccuracies and inefficiencies in attendance tracking. Leveraging technological advancements, this project endeavours to rectify the deficiencies inherent in the incumbent systems, thereby revolutionizing attendance management through process automation.
 
-The main difference between this technique of attendance taking and generally used facial recognition technique is that there are no possibilities of false attendance in this technique.Our hardware is connected via IOT to web servers whose accesibilty can be controlled. During first half of lecture the hardware will be facing outwards the classroom thus capturing the images of students entering inside, after some predetermined time the hardware will rotate 180 degrees and face inside, during this time it will capture students leaving the classrom.Now according to time difference between intime and outtime it will mark attendance for respective subjects.
+A distinguishing feature of this attendance tracking methodology, in contrast to conventional facial recognition techniques, is its inherent immunity to false attendance occurrences. Our hardware infrastructure interfaces with web servers via Internet of Things (IoT) technology, ensuring controlled accessibility. During the initial segment of a session, the hardware is oriented outward, capturing images of students as they enter the premises. Subsequently, after a predetermined interval, the hardware rotates 180 degrees, facing inward to capture departures. Attendance is then marked based on the temporal differential between entry and exit times, corresponding to respective subjects.
 
-The technology working behind will be the face recognition system. The human face is one of the natural traits that can uniquely identify an individual. Therefore, it is used to trace identity as the possibilities for a face to deviate or being duplicated is low. In this project, face databases will be created to pump data into the recognizer algorithm. Then, during the attendance taking session, faces will be compared against the database to seek identity. When an individual is identified, its attendance will be taken down automatically saving necessary information into a database system. At the end of the day, the attendance information regarding an individual can be accessed from a cloud server.
+At the core of this system lies facial recognition technology, leveraging the inherent uniqueness of the human face for individual identification. The low probability of facial deviation or duplication renders it an ideal biometric trait for identity verification. The project entails the construction of facial databases to populate the recognizer algorithm, facilitating real-time comparison of captured facial images against the database for identity verification. Upon successful identification, attendance records are automatically generated and stored within a comprehensive database infrastructure. Accessible via a cloud-based server, this repository ensures seamless retrieval of attendance data for individual stakeholders.
 
-In short, this upgraded version of attendance monitoring system not only saved many resources but also provide huge convenience to the authority as many processes is automated.
+**Results:**
+
+**Project Scope and Objective:**  
+Served as the lead developer for a "Hand Hygiene Compliance Monitoring System Using Gesture Recognition and Deep Learning" as part of a B.Tech project.  
+The dataset comprised six classes of images, totaling 1418 images, with each class containing 150-300 images.  
+
+**Machine Learning Model Development:**  
+Utilized 90% of the dataset for training, with the remaining 10% allocated for testing.  
+Adopted a batch size of 16.  
+Employed Google's MobileNetV-2 architecture.  
+Configured the learning rate to 0.0001.  
+Leveraged transfer learning with pre-trained 'Imagenet' weights.  
+
+**Model Performance:**  
+Initial validation accuracy of 42% recorded using NVIDIA Digits.  
+Significant enhancement in accuracy to 63% post fine-tuning.  
+
+**Deployment:**  
+Successfully deployed the model to an FPGA DE10 nano.
